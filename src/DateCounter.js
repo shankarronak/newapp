@@ -9,6 +9,8 @@ export default function DateCounter() {
   );
 }
 
+// Parent Component
+
 function Counter() {
   const [count, setCount] = useState(0);
   const [step, setStep] = useState(1);
